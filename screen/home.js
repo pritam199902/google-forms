@@ -21,7 +21,7 @@ export default function Home() {
   // console.log(props);
 
   return (
-    <View style={{ backgroundColor: "#fff" }}>
+    <View style={{  }}>
       <AddItem />
       {/* <Header />
       <ScrollView style={styles.showList}>
@@ -78,7 +78,8 @@ const styles = StyleSheet.create({
   },
   showList: {
     alignContent: "space-between",
-    // marginLeft: Platform.OS === "web" ? 150 : 0,
-    // marginRight: Platform.OS === "web" ? 150 : 0,
+    backgroundColor: "#fff",
+    marginLeft: Platform.OS === "web" ? 150 : 0,
+    marginRight: Platform.OS === "web" ? 150 : 0,
   },
 });
